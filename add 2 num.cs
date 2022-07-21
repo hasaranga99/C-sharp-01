@@ -23,14 +23,23 @@ namespace add_2number
 
             Console.WriteLine("Enter the First number = ");
             String number1=Console.ReadLine();
-            int num1=Convert.ToInt32(number1);
+            double num1=Convert.ToDouble(number1);
 
             Console.WriteLine("Enter the Second number = ");
             String number2=Console.ReadLine();
-            int num2=Convert.ToInt32(number2);
+            double num2=Convert.ToDouble(number2);
 
-            int Total = num1 + num2;
+            double Total = num1 + num2;
             Console.WriteLine("Total is = " + Total);
+
+            double sub = num1 - num2;
+            Console.WriteLine("subtraction is = " + sub);
+
+            double multi = num1 * num2;
+            Console.WriteLine("Multiplication is = " + multi);
+
+            double div = num1 / num2;
+            Console.WriteLine("Division  is = " + div);
 
             Console.ReadLine();
         }
