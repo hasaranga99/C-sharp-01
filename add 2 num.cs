@@ -18,7 +18,7 @@ namespace add_2number
             num2 = 18;
             ans = num1+ num2;
 
-            Console.WriteLine(ans);
+            Console.WriteLine(num1+ "+" +num2 + "=" +ans);
             Console.ReadLine();
         }
     }
